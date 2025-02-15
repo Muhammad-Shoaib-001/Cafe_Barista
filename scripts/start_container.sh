@@ -14,4 +14,4 @@ cd /home/ec2-user/app
 docker build -t nginx_app .
 
 # Run the new container
-docker run -d --name nginx_app -p 80:80 nginx_app
+docker run -d --name nginx_app -p 9091:80 nginx_app
