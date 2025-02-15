@@ -16,4 +16,4 @@ docker pull muhammadshoaib100/app:latest
 
 # Run the container with the same name to avoid duplicates
 echo "Starting new container..."
-docker run -d --name $CONTAINER_NAME -p 9091:80 muhammadshoaib100/app:latest
+docker run -d --name $CONTAINER_NAME -p 9091:80 muhammadshoaib100/app:latest 
